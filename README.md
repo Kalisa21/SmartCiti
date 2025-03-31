@@ -1,15 +1,18 @@
 # SmartCiti
 
 <<<<<<< HEAD
-RenderURL : https://fastapi-fezf.onrender.com 
+TrafficSense 
 =======
-This project aims to predict traffic situations (e.g., low, medium, high, congested) based on vehicle counts, time, and day of the week using a neural network model. The project includes data preprocessing, model training, evaluation, and prediction scripts, with the potential to integrate with a front-end application deployed on Vercel for real-time traffic predictions.
+
+RenderURL : https://fastapi-fezf.onrender.com 
+
+This project aims to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time, and day of the week using a neural network model. The project includes data preprocessing, model training, evaluation, and prediction scripts, with the potential to integrate with a front-end application deployed on Vercel for real-time traffic predictions.
 
 Table of Contents
 Project Overview
 This project leverages machine learning to predict traffic situations using features such as vehicle counts (CarCount, BikeCount, BusCount, TruckCount), time of day (Hour), and day of the week. The model is a neural network built with TensorFlow, trained on a dataset of traffic observations. The project includes scripts for data preprocessing, model training, evaluation, and prediction, as well as data visualization to explore traffic patterns.
 
-The ultimate goal is to integrate this model with a front-end application (e.g., built with React or Next.js) deployed on Vercel, allowing users to input vehicle counts and receive real-time traffic situation predictions.
+The ultimate goal is to integrate this model with a front-end application (built with React) deployed on Vercel, allowing users to input vehicle counts and receive real-time traffic situation predictions.
 
 Features
 Data Preprocessing: Feature engineering (e.g., Vehicle_Density, Heavy_Vehicle_Ratio), encoding, and scaling.
@@ -30,7 +33,7 @@ Project_name/
 ├── README.md               # Project documentation
 ├── requirements.txt        # Python dependencies
 ├── notebook/
-│   └── project_name.ipynb  # Jupyter Notebook for data exploration and model training
+│   └── TrafficSense.ipynb  # Jupyter Notebook for data exploration and model training
 ├── src/
 │   ├── __init__.py         # Makes src a Python package
 │   ├── preprocessing.py    # Data preprocessing script
@@ -40,7 +43,7 @@ Project_name/
 │   ├── train/
 │   │   └── traffic_data_train.csv  # Training dataset
 │   └── test/
-│       └── traffic_data_test.csv   # Testing dataset
+│       └── retrain.csv   # Testing dataset
 └── models/
     ├── traffic_model.keras  # Saved TensorFlow model
     ├── scaler.pkl           # Saved scaler
@@ -70,7 +73,7 @@ Collapse
 Wrap
 
 Copy
-git clone https://github.com/your-username/Project_name.git
+git clone https://github.com/kalisa21/smartciti.git
 cd Project_name
 Set Up a Virtual Environment (optional but recommended):
 bash
