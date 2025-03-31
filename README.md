@@ -1,6 +1,6 @@
 # SmartCiti
 
-<<<<<<< HEAD
+
 TrafficSense 
 =======
 
