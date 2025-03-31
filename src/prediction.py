@@ -1,5 +1,5 @@
 import pandas as pd
-from .preprocessing import preprocess_data  # Import from the same src directory
+from .preprocessing import preprocess_data  
 
 def predict_traffic(model, scaler, label_encoder, input_data):
     total = input_data['CarCount'] + input_data['BikeCount'] + input_data['BusCount'] + input_data['TruckCount']
