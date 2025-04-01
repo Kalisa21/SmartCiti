@@ -1,8 +1,13 @@
 SmartCiti
+
+
 Overview
+
 SmartCiti is a machine learning project designed to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time of day, and day of the week. The project employs a neural network model built with TensorFlow to analyze traffic patterns and provide predictions. It includes data preprocessing, model training, evaluation, and prediction capabilities, with a front-end application deployed on Vercel for real-time traffic situation predictions.
 
+
 Dataset
+
 The project uses a traffic dataset with the following attributes:
 
 Date: Date of the observation (dropped during preprocessing).
@@ -18,7 +23,9 @@ Obtaining the Dataset
 Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Machine Learning Repository using terms like "traffic vehicle count" or "traffic prediction dataset."
 Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
 Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
+
 Project Structure
+
 The project is organized as follows:
 
 SmartCiti/
@@ -42,101 +49,74 @@ SmartCiti/
 │   └── label_encoder.pkl
 |
 ├── README.md
-|
-└── requirements.txt
 
 
 Installation
+
 Clone the repository:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 git clone https://github.com/kalisa21/smartciti.git
 cd SmartCiti
+
 Create a virtual environment and activate it:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 Install the required dependencies:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 pip install -r requirements.txt
+
 Ensure dataset availability:
 
 Place your training and testing datasets in data/train/ and data/test/, respectively, or generate synthetic data using the notebook.
 Usage
 Preprocess the data:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 python src/preprocessing.py
+
 Train the model:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 python src/model.py
+
 Make predictions:
 
-text
-
-Collapse
-
-Wrap
-
-Copy
 python src/prediction.py
+
 Models
 This project uses the following models, trained on the traffic dataset:
 
 traffic_model.keras: Saved TensorFlow neural network model.
 scaler.pkl: Saved scaler for feature scaling.
 label_encoder.pkl: Saved label encoder for target labels.
+
+
 Frontend
+
 The frontend is built with React and deployed on Vercel, offering the following features:
 
 Data Input: Collect vehicle counts, hour, and day of the week from users.
 Prediction Display: Show real-time traffic situation predictions.
 Integration: Communicates with a FastAPI backend deployed on Render.
+
 Technologies
+
 Frontend: React
 Backend: Python, FastAPI
 Machine Learning: TensorFlow, Scikit-Learn
 Visualization: Matplotlib, Seaborn
-Frontend Link to the Repository
-SmartCiti Frontend Repository
 
-Live Link to the Project
-SmartCiti Live Website
 
-Render API URL
+Frontend Link to the Repository :
+
+SmartCiti Frontend Repository :
+
+Live Link to the Project:
+
+SmartCiti Live Website:
+
+Render API URL:
 
 Author
+
 Kalisa
