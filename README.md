@@ -10,26 +10,25 @@ SmartCiti is a machine learning project designed to predict traffic situations (
 
 The project uses a traffic dataset with the following attributes:
 
-Date: Date of the observation (dropped during preprocessing).
-Time: Time of the observation (e.g., 12:30:00 PM).
-Day of the week: Day of the week (e.g., Monday).
-CarCount: Number of cars observed.
-BikeCount: Number of bikes observed.
-BusCount: Number of buses observed.
-TruckCount: Number of trucks observed.
-Total: Total number of vehicles.
-Traffic Situation: Target label (e.g., low, medium, high, congested).
+- Date: Date of the observation (dropped during preprocessing).
+- Time: Time of the observation (e.g., 12:30:00 PM).
+- Day of the week: Day of the week (e.g., Monday).
+- CarCount: Number of cars observed.
+- BikeCount: Number of bikes observed.
+- BusCount: Number of buses observed.
+- TruckCount: Number of trucks observed.
+- Total: Total number of vehicles.
+- Traffic Situation: Target label (e.g., low, medium, high, congested).
 
 # Obtaining the Dataset
 
-Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Machine Learning Repository using terms like "traffic vehicle count" or "traffic prediction dataset."
-Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
-Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
+- Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Machine Learning Repository using terms like "traffic vehicle count" or "traffic prediction dataset."
+- Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
+- Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
 
 # Project Structure
 
 # The project is organized as follows:
-
 SmartCiti/
 ├── data/
 │   ├── train/
@@ -57,14 +56,14 @@ SmartCiti/
 
 ## Clone the repository:
 
-git clone https://github.com/kalisa21/smartciti.git
+- git clone https://github.com/kalisa21/smartciti.git
 
-cd SmartCiti
+- cd SmartCiti
 
 ## Create a virtual environment and activate it:
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install the required dependencies:
 
@@ -105,10 +104,10 @@ The frontend is built with React and deployed on Vercel, offering the following 
 
 # Technologies
 
-Frontend: React
-Backend: Python, FastAPI
-Machine Learning: TensorFlow, Scikit-Learn
-Visualization: Matplotlib, Seaborn
+- Frontend: React
+- Backend: Python, FastAPI
+- Machine Learning: TensorFlow, Scikit-Learn
+- Visualization: Matplotlib, Seaborn
 
 
 
