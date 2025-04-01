@@ -90,18 +90,18 @@ python src/prediction.py
 # Models
 This project uses the following models, trained on the traffic dataset:
 
-traffic_model.keras: Saved TensorFlow neural network model.
-scaler.pkl: Saved scaler for feature scaling.
-label_encoder.pkl: Saved label encoder for target labels.
+- traffic_model.keras: Saved TensorFlow neural network model.
+- scaler.pkl: Saved scaler for feature scaling.
+- label_encoder.pkl: Saved label encoder for target labels.
 
 
 # Frontend
 
 The frontend is built with React and deployed on Vercel, offering the following features:
 
-Data Input: Collect vehicle counts, hour, and day of the week from users.
-Prediction Display: Show real-time traffic situation predictions.
-Integration: Communicates with a FastAPI backend deployed on Render.
+- Data Input: Collect vehicle counts, hour, and day of the week from users.
+- Prediction Display: Show real-time traffic situation predictions.
+- Integration: Communicates with a FastAPI backend deployed on Render.
 
 # Technologies
 
@@ -112,13 +112,13 @@ Visualization: Matplotlib, Seaborn
 
 
 
-# SmartCiti Frontend Repository :
+SmartCiti Frontend Repository :
 
-# Live Link to the Project: https://smart-citi-frontend.vercel.app/ 
+Live Link to the Project: https://smart-citi-frontend.vercel.app/ 
 
-# SmartCiti Live Website: https://smart-citi-frontend.vercel.app/ 
+SmartCiti Live Website: https://smart-citi-frontend.vercel.app/ 
 
-# Render API URL: https://fastapi-fezf.onrender.com 
+Render API URL: https://fastapi-fezf.onrender.com 
 
 # Author
 
