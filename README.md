@@ -4,6 +4,8 @@
 TrafficSense 
 =======
 
+
+live website : https://smart-citi-frontend.vercel.app/ 
 RenderURL : https://fastapi-fezf.onrender.com 
 
 This project aims to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time, and day of the week using a neural network model. The project includes data preprocessing, model training, evaluation, and prediction scripts, with the potential to integrate with a front-end application deployed on Vercel for real-time traffic predictions.
