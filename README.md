@@ -30,7 +30,7 @@ Custom Data: Collect your own data using traffic sensors or manual observations,
 
 # The project is organized as follows:
 
-'''SmartCiti/
+SmartCiti/
 ├── data/
 │   ├── train/
 │   │   └── traffic_data_train.csv
@@ -50,7 +50,7 @@ Custom Data: Collect your own data using traffic sensors or manual observations,
 │   ├── scaler.pkl
 │   └── label_encoder.pkl
 |
-├── README.md'''
+├── README.md
 
 
 # Installation
@@ -111,15 +111,14 @@ Machine Learning: TensorFlow, Scikit-Learn
 Visualization: Matplotlib, Seaborn
 
 
-# Frontend Link to the Repository :
 
 # SmartCiti Frontend Repository :
 
-Live Link to the Project:
+# Live Link to the Project: https://smart-citi-frontend.vercel.app/ 
 
-# SmartCiti Live Website:
+# SmartCiti Live Website: https://smart-citi-frontend.vercel.app/ 
 
-# Render API URL:
+# Render API URL: https://fastapi-fezf.onrender.com 
 
 # Author
 
