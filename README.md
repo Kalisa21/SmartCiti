@@ -1,12 +1,12 @@
-SmartCiti
+# SmartCiti
 
 
-Overview
+# Overview
 
 SmartCiti is a machine learning project designed to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time of day, and day of the week. The project employs a neural network model built with TensorFlow to analyze traffic patterns and provide predictions. It includes data preprocessing, model training, evaluation, and prediction capabilities, with a front-end application deployed on Vercel for real-time traffic situation predictions.
 
 
-Dataset
+# Dataset
 
 The project uses a traffic dataset with the following attributes:
 
@@ -24,9 +24,9 @@ Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Mac
 Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
 Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
 
-Project Structure
+# Project Structure
 
-The project is organized as follows:
+# The project is organized as follows:
 
 SmartCiti/
 ├── data/
@@ -51,19 +51,20 @@ SmartCiti/
 ├── README.md
 
 
-Installation
+# Installation
 
-Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/kalisa21/smartciti.git
+
 cd SmartCiti
 
-Create a virtual environment and activate it:
+## Create a virtual environment and activate it:
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install the required dependencies:
+# Install the required dependencies:
 
 pip install -r requirements.txt
 
