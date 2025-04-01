@@ -19,7 +19,9 @@ BusCount: Number of buses observed.
 TruckCount: Number of trucks observed.
 Total: Total number of vehicles.
 Traffic Situation: Target label (e.g., low, medium, high, congested).
-Obtaining the Dataset
+
+# Obtaining the Dataset
+
 Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Machine Learning Repository using terms like "traffic vehicle count" or "traffic prediction dataset."
 Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
 Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
@@ -28,7 +30,7 @@ Custom Data: Collect your own data using traffic sensors or manual observations,
 
 # The project is organized as follows:
 
-SmartCiti/
+# SmartCiti/
 ├── data/
 │   ├── train/
 │   │   └── traffic_data_train.csv
@@ -68,23 +70,24 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
-Ensure dataset availability:
+# Ensure dataset availability:
 
 Place your training and testing datasets in data/train/ and data/test/, respectively, or generate synthetic data using the notebook.
 Usage
-Preprocess the data:
+
+# Preprocess the data:
 
 python src/preprocessing.py
 
-Train the model:
+# Train the model:
 
 python src/model.py
 
-Make predictions:
+# Make predictions:
 
 python src/prediction.py
 
-Models
+# Models
 This project uses the following models, trained on the traffic dataset:
 
 traffic_model.keras: Saved TensorFlow neural network model.
@@ -92,7 +95,7 @@ scaler.pkl: Saved scaler for feature scaling.
 label_encoder.pkl: Saved label encoder for target labels.
 
 
-Frontend
+# Frontend
 
 The frontend is built with React and deployed on Vercel, offering the following features:
 
@@ -100,7 +103,7 @@ Data Input: Collect vehicle counts, hour, and day of the week from users.
 Prediction Display: Show real-time traffic situation predictions.
 Integration: Communicates with a FastAPI backend deployed on Render.
 
-Technologies
+# Technologies
 
 Frontend: React
 Backend: Python, FastAPI
@@ -108,16 +111,16 @@ Machine Learning: TensorFlow, Scikit-Learn
 Visualization: Matplotlib, Seaborn
 
 
-Frontend Link to the Repository :
+# Frontend Link to the Repository :
 
-SmartCiti Frontend Repository :
+# SmartCiti Frontend Repository :
 
 Live Link to the Project:
 
-SmartCiti Live Website:
+# SmartCiti Live Website:
 
-Render API URL:
+# Render API URL:
 
-Author
+# Author
 
 Kalisa
