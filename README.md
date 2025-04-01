@@ -30,7 +30,7 @@ Custom Data: Collect your own data using traffic sensors or manual observations,
 
 # The project is organized as follows:
 
-# SmartCiti/
+'''SmartCiti/
 ├── data/
 │   ├── train/
 │   │   └── traffic_data_train.csv
@@ -50,7 +50,7 @@ Custom Data: Collect your own data using traffic sensors or manual observations,
 │   ├── scaler.pkl
 │   └── label_encoder.pkl
 |
-├── README.md
+├── README.md'''
 
 
 # Installation
