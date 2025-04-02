@@ -93,6 +93,8 @@ Live Link to the Project: https://smart-citi-frontend.vercel.app/
 
 video link : https://youtu.be/fxLZ-8pZiOU 
 
+link to the front-end : https://github.com/Kalisa21/smart_citi_frontend.git 
+
 Render API URL: https://fastapi-fezf.onrender.com 
 
 # Author
