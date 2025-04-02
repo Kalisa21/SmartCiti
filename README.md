@@ -27,31 +27,6 @@ The project uses a traffic dataset with the following attributes:
 - Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
 - Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
 
-# Project Structure
-
-# The project is organized as follows:
-SmartCiti/
-├── data/
-│   ├── train/
-│   │   └── traffic_data_train.csv
-│   └── test/
-│       └── retrain.csv
-|
-├── notebook/
-│   └── TrafficSense.ipynb
-|
-├── src/
-│   ├── preprocessing.py
-│   ├── model.py
-│   └── prediction.py
-|
-├── models/
-│   ├── traffic_model.keras
-│   ├── scaler.pkl
-│   └── label_encoder.pkl
-|
-├── README.md
-
 
 # Installation
 
@@ -116,7 +91,7 @@ SmartCiti Frontend Repository :
 
 Live Link to the Project: https://smart-citi-frontend.vercel.app/ 
 
-SmartCiti Live Website: https://smart-citi-frontend.vercel.app/ 
+video link : https://youtu.be/fxLZ-8pZiOU 
 
 Render API URL: https://fastapi-fezf.onrender.com 
 
