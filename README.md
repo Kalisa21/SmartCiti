@@ -1,9 +1,10 @@
-# SmartCiti
+# Smartciti
+# TrafficSense
 
 
 # Overview
 
-SmartCiti is a machine learning project designed to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time of day, and day of the week. The project employs a neural network model built with TensorFlow to analyze traffic patterns and provide predictions. It includes data preprocessing, model training, evaluation, and prediction capabilities, with a front-end application deployed on Vercel for real-time traffic situation predictions.
+TrafficSense is a machine learning project designed to predict traffic situations (e.g., low, normal, heavy) based on vehicle counts, time of day, and day of the week. The project employs a neural network model built with TensorFlow to analyze traffic patterns and provide predictions. It includes data preprocessing, model training, evaluation, and prediction capabilities, with a front-end application deployed on Vercel for real-time traffic situation predictions.
 
 
 # Dataset
