@@ -21,13 +21,6 @@ The project uses a traffic dataset with the following attributes:
 - Total: Total number of vehicles.
 - Traffic Situation: Target label (e.g., low, medium, high, congested).
 
-# Obtaining the Dataset
-
-- Public Datasets: Search for traffic datasets on platforms like Kaggle or UCI Machine Learning Repository using terms like "traffic vehicle count" or "traffic prediction dataset."
-- Synthetic Data: Generate synthetic data by running the TrafficSense.ipynb notebook.
-- Custom Data: Collect your own data using traffic sensors or manual observations, matching the required format.
-
-
 # Installation
 
 ## Clone the repository:
